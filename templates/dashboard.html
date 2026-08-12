@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Dashboard | Flask Auth Demo{% endblock %}
+{% block content %}
+    <div class="form-card">
+        <h2>Dashboard</h2>
+        <p>Hello, <strong>{{ username }}</strong> — you are logged in.</p>
+        <a class="btn btn-secondary" href="{{ url_for('logout') }}">Logout</a>
+    </div>
+{% endblock %}

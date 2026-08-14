@@ -18,7 +18,7 @@ class Config:
     MYSQL_PORT = int(os.environ.get("MYSQL_PORT", 3306))
     MYSQL_USER = os.environ.get("MYSQL_USER", "root")
     MYSQL_PASSWORD = os.environ.get("MYSQL_PASSWORD", "sT.#210105")
-    MYSQL_DB = os.environ.get("MYSQL_DB", "flask-auth-demo")
+    MYSQL_DB = os.environ.get("MYSQL_DB", "flask_auth_demo")
 
     # Session cookie hardening
     SESSION_COOKIE_HTTPONLY = True

@@ -7,7 +7,7 @@
             <p>You are logged in as <strong>{{ session.get('username') }}</strong>.</p>
             <a class="btn" href="{{ url_for('dashboard') }}">Go to Dashboard</a>
         {% else %}
-            <p>Brand Consistency...</p>
+            <p>Brand Consistency</p>
             <div class="hero-actions">
                 <a class="btn" href="{{ url_for('login') }}">Login</a>
                 <a class="btn btn-secondary" href="{{ url_for('register') }}">Register</a>

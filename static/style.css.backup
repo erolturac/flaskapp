@@ -22,11 +22,6 @@ body {
     font-size: 1.2rem;
 }
 
-.nav-links {
-    display: flex;
-    align-items: center;
-}
-
 .nav-links a {
     color: #d2d6dc;
     text-decoration: none;
@@ -35,29 +30,6 @@ body {
 }
 
 .nav-links a:hover { color: #fff; }
-
-.nav-divider {
-    width: 1px;
-    height: 20px;
-    background: #4b5563;
-    margin-left: 20px;
-}
-
-.social-links {
-    display: flex;
-    align-items: center;
-}
-
-.social-links a {
-    display: flex;
-    align-items: center;
-    margin-left: 14px;
-    color: #d2d6dc;
-}
-
-.social-links a:hover { color: #fff; }
-
-.social-links svg { display: block; }
 
 .container {
     max-width: 480px;
